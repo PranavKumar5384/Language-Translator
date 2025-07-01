@@ -28,16 +28,22 @@ Video Editing: moviepy
 
 **📦 Installation**
 
-1. Clone the repo:\n
-git clone https://github.com/yourusername/Language-Translator.git
+#1. Clone the repo:\n
+
+#git clone https://github.com/yourusername/Language-Translator.git
+
 cd Language-Translator
 
-2. Create virtual environment:
+#2. Create virtual environment:
+
 python -m venv venv
+
 source venv/bin/activate    # on Linux/macOS
+
 venv\Scripts\activate       # on Windows
 
 3. Install dependencies:
+   
 pip install -r requirements.txt
 
 **▶️ Usage**
@@ -63,6 +69,7 @@ Then open the local URL provided (e.g., http://localhost:8501) in your browser.
 Python 3.11
 
 ffmpeg (for audio/video processing, required by moviepy & pydub)
+
 Install via: sudo apt install ffmpeg or brew install ffmpeg or from https://ffmpeg.org
 
 **📌 Notes**
