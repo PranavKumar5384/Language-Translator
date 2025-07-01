@@ -1,0 +1,10 @@
+
+googletrans==4.0.0-rc1
+streamlit
+moviepy==1.0.3
+openai-whisper
+gtts
+langcodes
+audiorecorder
+SpeechRecognition
+pydub
