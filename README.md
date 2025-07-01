@@ -28,7 +28,7 @@ Video Editing: moviepy
 
 **📦 Installation**
 
-1. Clone the repo:
+1. Clone the repo:\n
 git clone https://github.com/yourusername/Language-Translator.git
 cd Language-Translator
 
