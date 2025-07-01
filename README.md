@@ -4,55 +4,55 @@ This is a Streamlit web application project that allows users to translate words
 
 **🚀 Features**
 
-🎥 Upload audio/videos and translate what was being spoken
+   🎥 Upload audio/videos and translate what was being spoken
 
-🎙️ Speak into your microphone and receive voice outputs of translations
+   🎙️ Speak into your microphone and receive voice outputs of translations
 
-📝 Write text and listen to it translated into another language
+   📝 Write text and listen to it translated into another language
 
-🌐 Automatic detection of language or selection
+   🌐 Automatic detection of language or selection
 
-📼 Creates a new video with translated audio for video posts
+   📼 Creates a new video with translated audio for video posts
 
 **🛠️ Tech Stack**
 
-Frontend: Streamlit
+   Frontend: Streamlit
 
-Transcription: OpenAI Whisper
+   Transcription: OpenAI Whisper
 
-Translation: Google Translate API (googletrans)
+   Translation: Google Translate API (googletrans)
 
-TTS (Text-to-Speech): gTTS (Google Text-to-Speech)
+   TTS (Text-to-Speech): gTTS (Google Text-to-Speech)
 
-Video Editing: moviepy
+   Video Editing: moviepy
 
 **📦 Installation**
 
-#1. Clone the repo:\n
+1. Clone the repo:
 
-#git clone https://github.com/yourusername/Language-Translator.git
+   git clone https://github.com/yourusername/Language-Translator.git
 
-cd Language-Translator
+   cd Language-Translator
 
-#2. Create virtual environment:
+2. Create virtual environment:
 
-python -m venv venv
+   python -m venv venv
 
-source venv/bin/activate    # on Linux/macOS
+   source venv/bin/activate    # on Linux/macOS
 
-venv\Scripts\activate       # on Windows
+   venv\Scripts\activate       # on Windows
 
 3. Install dependencies:
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 **▶️ Usage**
 
-#Run the app using Streamlit:
+   Run the app using Streamlit:
 
-streamlit run app.py
+   streamlit run app.py
 
-Then open the local URL provided (e.g., http://localhost:8501) in your browser.
+   Then open the local URL provided (e.g., http://localhost:8501) in your browser.
 
 **📁 Project Structure**
 
@@ -66,16 +66,16 @@ Then open the local URL provided (e.g., http://localhost:8501) in your browser.
 
 **✅ Requirements**
 
-Python 3.11
+   Python 3.11
 
-ffmpeg (for audio/video processing, required by moviepy & pydub)
+   ffmpeg (for audio/video processing, required by moviepy & pydub)
 
-Install via: sudo apt install ffmpeg or brew install ffmpeg or from https://ffmpeg.org
+   Install via: sudo apt install ffmpeg or brew install ffmpeg or from https://ffmpeg.org
 
 **📌 Notes**
 
-OpenAI Whisper model runs locally; no API key required.
+   OpenAI Whisper model runs locally; no API key required.
 
-googletrans sometimes fails due to rate-limiting—best effort translation.
+   googletrans sometimes fails due to rate-limiting—best effort translation.
 
-TTS voice is synthetic and generated via gTTS.
+   TTS voice is synthetic and generated via gTTS.
